@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Poppins-Light";
+    src: url(./Poppins-Light.ttf);
+}
+.all, .all .kanan .gambar1, .head {
+    display: flex;
+    font-family: "Poppins-Light";
+    
+}
+.all .kiri {
+    background-color: #3C6AF6;
+    width: 60%;
+}
+.all .kanan {
+    width: 40%;
+}
+.all .kiri .gambar {
+    height: 478.36px;
+    margin: 25%;
+}
+.head1 {
+    font-weight: bolder;
+}
+.we {
+    color: #3C6AF6;
+}
+.tick {
+    color: #FC1055;
+}

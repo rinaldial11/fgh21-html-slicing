@@ -2,6 +2,13 @@
     font-family: "Poppins-Light";
     src: url(./Poppins-Light.ttf);
 }
+@font-face {
+    font-family: "poppins-reguler";
+    src: url(./Poppins-Regular.ttf);
+}
+body {
+    margin: 0;
+}
 .all, .all .kanan .gambar1, .head {
     display: flex;
     font-family: "Poppins-Light";
@@ -16,14 +23,119 @@
 }
 .all .kiri .gambar {
     height: 478.36px;
-    margin: 25%;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 25%;
 }
 .head1 {
-    font-weight: bolder;
+    margin-left: 100px;
+    font-family: "poppins-reguler";
+}
+.head2 {
+    margin-left: 100px;
 }
 .we {
     color: #3C6AF6;
+    text-align: center;
 }
 .tick {
     color: #FC1055;
+    text-align: center;
+} 
+.gambar1 {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.username {
+    width: 55%;
+    border: 1px;
+    border-color: #C1C5D0;
+    border-style: solid;
+    border-radius: 15px;
+    height: 55px;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: left;
+    padding-left: 30px;
+}
+.email {
+    width: 55%;
+    border: 1px;
+    border-color: #C1C5D0;
+    border-style: solid;
+    border-radius: 15px;
+    height: 55px;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+.password {
+    width: 55%;
+    border: 1px;
+    border-color: #C1C5D0;
+    border-style: solid;
+    border-radius: 15px;
+    height: 55px;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 30px;
+    background: url(view.png);
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+}
+.forgot {
+    color: #3366FF;
+    font-size: 9px;
+    margin-top: 30px;
+    font-weight: bolder;
+    text-align: right;
+    margin-right: 235px;
+    font-family: "poppins-reguler";
+}
+::placeholder {
+    letter-spacing: 2px;
+    color: #C1C5D0;
+}
+.button1 {
+    width: 59%;
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 55px;
+    background-color: #3366FF;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+}
+.or {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 15%;
+}
+.buttonimg {
+    display: flex;
+}
+.button2 {
+    width: 95px;
+    margin-left: 225px;
+    margin-top: 50px;
+    height: 52px;
+    background-color: white;
+    border: 1px;
+    border-color: #3366FF;
+    border-style: solid;
+    border-radius: 6px;
+}
+.button3 {
+    width: 95px;
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 52px;
+    background-color: white;
+    border: 1px;
+    border-color: #3366FF;
+    border-style: solid;
+    border-radius: 6px;
 }

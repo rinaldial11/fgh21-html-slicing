@@ -9,19 +9,19 @@
 body {
     margin: 0;
 }
-.all, .all .kanan .gambar1, .head {
+.all, .all .right .image1, .head {
     display: flex;
     font-family: "Poppins-Light";
     
 }
-.all .kiri {
+.all .left {
     background-color: #3C6AF6;
     width: 60%;
 }
-.all .kanan {
+.all .right {
     width: 40%;
 }
-.all .kiri .gambar {
+.all .left .image {
     height: 478.36px;
     text-align: center;
     margin-top: 25%;
@@ -42,7 +42,7 @@ body {
     color: #FC1055;
     text-align: center;
 } 
-.gambar1 {
+.image1 {
     margin-top: 150px;
     margin-left: 100px;
 }
@@ -86,13 +86,17 @@ body {
     background-position: right 30px center;
 }
 .forgot {
-    color: #3366FF;
     font-size: 9px;
     margin-top: 30px;
     font-weight: bolder;
     text-align: right;
-    margin-right: 235px;
+    margin-right: 215px;
     font-family: "poppins-reguler";
+    font-size: 16px;
+}
+.forgot .link1 {
+    text-decoration: none;
+    color: #3366FF;
 }
 ::placeholder {
     letter-spacing: 2px;
@@ -139,17 +143,17 @@ body {
     border-style: solid;
     border-radius: 6px;
 }
-.bawah {
+.bottom {
     display: flex;
 }
-.bkiri {
+.bleft {
     width: 60%;
     background-color: #3C6AF6;
     margin-bottom: 0;
     padding-bottom: 50px;
     color: #3C6AF6;
 }
-.bkanan {
+.b-right {
     width: 40%;
     color: white;
 }

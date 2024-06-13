@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <!-- <link rel="stylesheet" href="home.css"> -->
+         <style>
+            @font-face {
+                font-family: poppins;
+                src: url(./asset/Poppins-Light.ttf);
+            }
+            @font-face {
+                font-family: poppins-reg;
+                src: url(./asset/Poppins-Regular.ttf);
+            }
+            @font-face {
+                font-family: poppins-semibold;
+                src: url(./asset/Poppins-SemiBold.ttf);
+            }
+            body {
+                font-family: poppins;
+                margin: 0;
+            }
+            .layer1 {
+                display: flex;
+                justify-content: space-between;
+                font-family: poppins-semibold;
+                letter-spacing: 2px;
+                padding: 20px 0;
+            }
+            .fill {
+                height: 50px;
+            }
+            .logo {
+                display: flex;
+                align-items: center;
+                margin-left: 2%;
+            }
+            .we {
+                color: #3366FF;
+                font-size: 24px;
+            }
+            .tick {
+                color: #FC1055;
+                font-size: 24px;
+            }
+            .nav {
+                display: flex;
+                gap: 50px;
+                align-items: center;
+                color: #373A42;
+                font-size: 14px;
+            }
+            .nav .nav-home {
+                color: #3366FF;
+                display: flex;
+                margin-top: 20px;
+            }
+            .mdash {
+                display: flex;
+                color: #3366FF;
+                text-align: center;
+                align-items: end;
+                justify-content: center;
+            }
+            .all-button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .all-button .button1, .all-button .button2 {
+                height: 40px;
+                font-family: poppins-semibold;
+                width: 169px;
+                letter-spacing: 1px;
+            }
+            .all-button .button1 {
+                color: #373A42;
+                background: transparent;
+                border: none;
+            }
+            .all-button .button2 {
+                margin-right: 50px;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                background-color: #3366FF;
+            }
+            .layer2 {
+                background-color: #3366FF;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+            }
+            .imagegroup {
+                position: absolute;
+                height: 478px;
+            }
+            .ellipse1 {
+                height: 550px;
+                margin-bottom: 12%;
+            }
+            .layer3 {
+                /* background-color: blueviolet; */
+                height: 100dvh;
+            }
+            .event-button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 10%;
+            }
+            .button3 {
+                border: none;
+                border-radius: 30px;
+                height: 30px;
+                width: 150px;
+                font-family: poppins-semibold;
+                background-color: #F8D1DB;
+                color: #FF3D71;
+                font-size: 12px;
+            }
+            .event-text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: poppins-semibold;
+                color: #333333;
+                font-size: 20px;
+                margin-bottom: 3%;
+            }
+            .date {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                gap: 75px;
+                font-size: 16px;
+                font-family: poppins-semibold;
+                color: #C1C5D0;
+            }
+            .date-grandc {
+                margin-bottom: 10px;
+            }
+            .date-childsel {
+                color: #FF8900;
+                border: 1px #FF8900 solid;
+                border-radius: 20px;
+                padding: 16px 11px;
+            }
+         </style>
+    </head>
+    <body>
+        <div class="layer1">
+            <div class="logo">
+                <span><img src="./asset/Fill.png" alt="" class="fill"></span>
+                <span class="we">We</span>
+                <span class="tick">tick</span>
+            </div>
+            <div class="nav">
+                <div>
+                    <div class="nav-home">Home</div>
+                    <div class="mdash">&#151;</div>
+                </div>
+                <div>Create Event</div>
+                <div>Location</div>
+            </div>
+            <div class="all-button">
+                <button type="button" class="button1">Log In</button>
+                <button type="button" class="button2">Sign Up</button>
+            </div>
+        </div>
+        <div class="layer2">
+            <img src="./asset/Group.png" alt="" class="imagegroup">
+            <img src="./asset/ellipse1.png" alt="" class="ellipse1">
+        </div>
+        <div class="layer3">
+            <div class="event">
+                <div class="event-button">
+                    <button type="button" class="button3">───  EVENT</button>
+                </div>
+                <div class="event-text">
+                    <h1 class="event-textchild">Events For You</h1>
+                </div>
+                <div class="date">
+                    <div class="date-child">
+                        <div class="date-grandc">13</div>
+                        <div>Mon</div>
+                    </div>
+                    <div class="date-child">
+                        <div class="date-grandc">14</div>
+                        <div>Tue</div>
+                    </div>
+                    <div class="date-childsel">
+                        <div class="date-grandc">15</div>
+                        <div>Wed</div>
+                        <div>&#9679</div>
+                    </div>
+                    <div class="date-child">
+                        <div class="date-grandc">16</div>
+                        <div>Thu</div>
+                    </div>
+                    <div class="date-child">
+                        <div class="date-grandc">17</div>
+                        <div>Fri</div>
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+    </body>
+</html>

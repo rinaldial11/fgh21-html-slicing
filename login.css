@@ -139,3 +139,17 @@ body {
     border-style: solid;
     border-radius: 6px;
 }
+.bawah {
+    display: flex;
+}
+.bkiri {
+    width: 60%;
+    background-color: #3C6AF6;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    color: #3C6AF6;
+}
+.bkanan {
+    width: 40%;
+    color: white;
+}
